@@ -1,0 +1,23 @@
+name: sim_fy_canvas
+description: "Flutter desktop whiteboard with a retained-mode canvas."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  path_provider: ^2.1.6
+  perfect_freehand: ^2.5.2+1
+  file_selector: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
